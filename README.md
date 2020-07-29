@@ -11,3 +11,5 @@ Xtrain Columns Pickling
 model_columns = list(train_idf.columns)
 joblib.dump(model_columns, 'model_columns.pkl')
 print("Models columns dumped!")
+
+**you have to place the model pickle file, columns pickle file in the same location where the app.py is placed*
